@@ -1,0 +1,197 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+ul li a {
+    color: white;
+    padding: 10px 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.between {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.titulo {
+    background-image: url(../img/download2.svg);
+    background-position-y: -526px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 0 250px 0;
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+h1 {
+    font-size: 5em;
+    line-height: 1.1em;
+}
+
+.titulo p {
+    font-size: 1.6em;
+    margin: 20px 0 120px 0;
+}
+
+.bandera {
+    width: 20px;
+}
+
+.button {
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.boton1 {
+    padding: 30px 150px;
+    background-color: #32c3ff;
+    font-size: 1.5em;
+    color: white;
+
+}
+
+.exponsors {
+    filter: grayscale(100%);
+    text-align: center;
+}
+
+.exponsors img {
+    width: 90%;
+}
+
+.exponsors p {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: grey;
+}
+
+hr {
+    opacity: 50%;
+}
+
+.img {
+    width: 100%;
+}
+
+.record h2 {
+    font-size: 70px;
+    letter-spacing: -2px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.parrafo{
+    font-size: 25px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.comentario{
+    font-size: 21px;
+    color: #f29025;
+    font-style:italic;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+.padre-coment{
+    width: 100%;
+}
+
+.autor{
+    margin-top:80px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 10%;
+}
+
+.fecha{
+    font-size: 13px;
+}
+
+.why{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    
+}
+
+.why h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.arriba{
+    align-items: flex-start;
+}
+
+.why img{
+    margin-right: 10px;
+}
+
+.why p{
+    color:grey
+}
+
+.why h3{
+    font-size: 23px;
+}
+
+.courses{
+    background-color: #d1d4d4;
+}
+.courses h2{
+    font-size: 60px;
+    margin-bottom: 50px;
+  
+}
+
+.courses h3{
+    font-size: 40px;
+    
+}
+
+.courses h5{
+    color: red;
+}
+
+.courses h4{
+    color: #222;
+    font-size: 20px;
+}
+
+.gris{
+    color:grey;
+}
+
+.boton3{
+    text-align: center;
+    width: 70%;
+    color: #32c3ff;
+    border-color: #32c3ff;
+    padding: 20px 0;
+}
+
+.sec{
+    transition: all 1s;
+}
+.sec:hover{
+    background-color: white;
+}
